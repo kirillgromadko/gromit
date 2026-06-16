@@ -1,0 +1,403 @@
+{
+  "categories": [
+    {
+      "slug": "nerjaveika",
+      "navLabel": "Нержавейка",
+      "title": "Перила и ограждения из нержавеющей стали",
+      "shortDescription": "Перила, ограждения и металлоконструкции из нержавейки. Изготавливаем под заказ, устанавливаем на объекте.",
+      "coverImage": "https://gromitstroy.by/wp-content/uploads/2023/01/nerj.jpg",
+      "intro": [
+        "Мы проектируем и изготавливаем изделия из нержавеющей стали для квартир, частных домов, офисов и коммерческих объектов. Материал не ржавеет, легко моется и сохраняет аккуратный вид долгие годы."
+      ],
+      "features": [
+        "Перила и ограждения для лестниц, балконов, крылец и кровли",
+        "Конструкции со вставками из стекла",
+        "Поручни для пандусов и маломобильных групп населения",
+        "Велопарковки, отбойники и другие металлоконструкции",
+        "Бесплатный выезд на замер, фиксированная цена до начала работ"
+      ],
+      "items": [
+        {
+          "title": "Балконные ограждения",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/balkoni.jpg"
+        },
+        {
+          "title": "Велопарковки",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/veloparkovki.jpg"
+        },
+        {
+          "title": "Лестницы",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/lestnici.jpg"
+        },
+        {
+          "title": "Ограждения со стеклом",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/ograjdenija-so-steklom.jpg"
+        },
+        {
+          "title": "Отбойники для супермаркетов",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/otboiniki.jpg"
+        },
+        {
+          "title": "Ограждения пандусов",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/pandusi.jpg"
+        },
+        {
+          "title": "Перила для кровли",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/perila-dlja-krovli.jpg"
+        },
+        {
+          "title": "Перила для лестниц",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/perila-lestnichnie.jpg"
+        },
+        {
+          "title": "Поручни для инвалидов",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/porychni-dlja-invalidov.jpg"
+        },
+        {
+          "title": "Пристенные поручни",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/porychni-pristennie.jpg"
+        },
+        {
+          "title": "Перила для крыльца",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/perila-dlja-krilca.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "perila",
+      "navLabel": "Черный металл",
+      "title": "Перила и ограждения из черного металла",
+      "shortDescription": "Перила и ограждения из чёрного металла с прочным полимерным покрытием. Подходят для дома, террасы и улицы.",
+      "coverImage": "https://gromitstroy.by/wp-content/uploads/2023/10/cher-met.jpg",
+      "intro": [
+        "Изготавливаем перила и ограждения из чёрного металла с порошковой покраской. Покрытие защищает от коррозии и позволяет подобрать цвет под фасад или интерьер."
+      ],
+      "features": [
+        "Перила для внутренних и наружных лестниц",
+        "Ограждения балконов, крылец и террас",
+        "Варианты со стеклом и деревянными вставками",
+        "Пандусы и пристенные поручни",
+        "Более 25 готовых моделей в каталоге или изготовление по эскизу"
+      ],
+      "items": [
+        {
+          "title": "Модель 001",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/001.jpg"
+        },
+        {
+          "title": "Модель 002",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/002.jpg"
+        },
+        {
+          "title": "Модель 003",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/003.jpg"
+        },
+        {
+          "title": "Модель 004",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/004.jpg"
+        },
+        {
+          "title": "Модель 005",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/005.jpg"
+        },
+        {
+          "title": "Модель 006",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/006.jpg"
+        },
+        {
+          "title": "Модель 007",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/007.jpg"
+        },
+        {
+          "title": "Модель 008",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/008.jpg"
+        },
+        {
+          "title": "Модель 009",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/009.jpg"
+        },
+        {
+          "title": "Модель 010",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/010.jpg"
+        },
+        {
+          "title": "Модель 011",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/011.jpg"
+        },
+        {
+          "title": "Модель 012",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/012.jpg"
+        },
+        {
+          "title": "Модель 013",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/013.jpg"
+        },
+        {
+          "title": "Модель 014",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/014.jpg"
+        },
+        {
+          "title": "Модель 015",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/015.jpg"
+        },
+        {
+          "title": "Модель 016",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/016.jpg"
+        },
+        {
+          "title": "Модель 017",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/017.jpg"
+        },
+        {
+          "title": "Модель 018",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/018.jpg"
+        },
+        {
+          "title": "Модель 019",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/019.jpg"
+        },
+        {
+          "title": "Модель 020",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/020.jpg"
+        },
+        {
+          "title": "Модель 021",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/021.jpg"
+        },
+        {
+          "title": "Модель 022",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/022.jpg"
+        },
+        {
+          "title": "Модель 023",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/023.jpg"
+        },
+        {
+          "title": "Модель 024",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/024.jpg"
+        },
+        {
+          "title": "Модель 025",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/025.jpg"
+        },
+        {
+          "title": "Модель 026",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/026.jpg"
+        },
+        {
+          "title": "Модель 027",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/027.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "kovka",
+      "navLabel": "Ковка",
+      "title": "Кованые изделия",
+      "shortDescription": "Декоративные и прочные изделия из металла: от перил до ворот и элементов для сада.",
+      "coverImage": "https://gromitstroy.by/wp-content/uploads/2023/01/kowka.jpg",
+      "intro": [
+        "Делаем кованые и сварные изделия для дома, дачи и общественных территорий. Поможем выбрать готовый вариант из каталога или изготовим по вашему эскизу с нужным орнаментом."
+      ],
+      "features": [
+        "Перила, ограждения балконов и лестниц",
+        "Ворота, калитки, заборы и решётки",
+        "Беседки, навесы, перголы, качели и скамейки",
+        "Мангалы, мостики, клумбы и другие элементы для сада",
+        "Индивидуальный рисунок ковки под стиль вашего дома"
+      ],
+      "items": [
+        {
+          "title": "Ограждения балконов",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/balkoni-k.jpg"
+        },
+        {
+          "title": "Беседки",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/besedki.jpg"
+        },
+        {
+          "title": "Качели",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/kacheli.jpg"
+        },
+        {
+          "title": "Калитки",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/kalitki.jpg"
+        },
+        {
+          "title": "Ограждения клумб",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/klymbi.jpg"
+        },
+        {
+          "title": "Козырьки",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/kozirki-k.jpg"
+        },
+        {
+          "title": "Лестницы",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/lestnici-k.jpg"
+        },
+        {
+          "title": "Мангалы",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/mangali.jpg"
+        },
+        {
+          "title": "Мостики садовые",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/mostiki.jpg"
+        },
+        {
+          "title": "Навесы",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/navesi.jpg"
+        },
+        {
+          "title": "Отбойники",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/otboiniki-k.jpg"
+        },
+        {
+          "title": "Перголы для сада",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/pergoli.jpg"
+        },
+        {
+          "title": "Перила для лестниц",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/porychni.jpg"
+        },
+        {
+          "title": "Оконные решётки",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/reshetki.jpg"
+        },
+        {
+          "title": "Скамейки",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/skameiki.jpg"
+        },
+        {
+          "title": "Столы",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/stoli.jpg"
+        },
+        {
+          "title": "Ворота",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/vorota.jpg"
+        },
+        {
+          "title": "Заборы",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/zabori.jpg"
+        },
+        {
+          "title": "Кованые перила",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/10/perila-001.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "steklo",
+      "navLabel": "Стекло",
+      "title": "Ограждения из стекла",
+      "shortDescription": "Стеклянные ограждения, козырьки и перегородки. Изготовление и аккуратный монтаж под ключ.",
+      "coverImage": "https://gromitstroy.by/wp-content/uploads/2023/01/steklo.jpg",
+      "intro": [
+        "Стекло визуально расширяет пространство и подходит для современных интерьеров и фасадов. Мы используем закалённое стекло и надёжную фурнитуру, а монтаж выполняют опытные специалисты."
+      ],
+      "features": [
+        "Ограждения лестниц, балконов и террас",
+        "Стеклянные козырьки над входом",
+        "Лестничные марши и перегородки",
+        "Решения для офисов, квартир и коммерческих объектов",
+        "Точный замер перед изготовлением"
+      ],
+      "items": [
+        {
+          "title": "Козырьки",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/kozirki.jpg"
+        },
+        {
+          "title": "Лестницы",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/lestnici.jpg"
+        },
+        {
+          "title": "Ограждения лестниц и балкона",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/ograjdenia.jpg"
+        },
+        {
+          "title": "Перегородки",
+          "image": "https://gromitstroy.by/wp-content/uploads/2023/01/peregorodki.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "lazernaya-rezka",
+      "navLabel": "Лазерная резка",
+      "title": "Лазерная резка металла",
+      "shortDescription": "Режем металл по вашим чертежам: быстро, точно, готово к покраске или сварке.",
+      "coverImage": "https://gromitstroy.by/wp-content/uploads/2026/05/lazer-bg.jpg",
+      "intro": [
+        "Выполняем лазерную резку деталей по чертежам заказчика. Перед запуском проверяем файлы и подскажем, если нужно что-то уточнить."
+      ],
+      "features": [
+        "Чёрная сталь: до 12 мм, ровный край для покраски и сварки",
+        "Нержавеющая сталь AISI 304: до 8 мм, без окалины на кромке",
+        "Алюминий и другие распространённые сплавы",
+        "Высокая точность геометрии и аккуратный рез",
+        "Оперативные сроки изготовления"
+      ],
+      "items": []
+    },
+    {
+      "slug": "gorodskaya-mebel",
+      "navLabel": "Городская мебель",
+      "title": "Городская мебель",
+      "shortDescription": "Скамейки, урны и другая уличная мебель из металла для двора, парка и бизнеса.",
+      "coverImage": "https://gromitstroy.by/wp-content/uploads/2023/01/skameiki.jpg",
+      "intro": [
+        "Производим прочную металлическую мебель для улицы и общественных мест. Конструкции рассчитаны на ежедневную нагрузку и погодные условия."
+      ],
+      "features": [
+        "Скамейки и садовая мебель",
+        "Велопарковки и урны",
+        "Изделия из нержавеющей стали и чёрного металла",
+        "Возможность изготовления по вашему проекту",
+        "Подходит для ЖК, парков, торговых центров и частных территорий"
+      ],
+      "items": []
+    },
+    {
+      "slug": "montazh",
+      "navLabel": "Монтаж",
+      "title": "Монтаж перил и ограждений",
+      "shortDescription": "Установим перила, ограждения и стеклянные конструкции на вашем объекте.",
+      "coverImage": "https://gromitstroy.by/wp-content/uploads/2023/01/perila-lestnichnie.jpg",
+      "intro": [
+        "Монтаж выполняют специалисты, которые знают особенности работы со стеклом и металлом. Вы получаете готовое изделие, установленное аккуратно и надёжно."
+      ],
+      "features": [
+        "Установка перил и ограждений из металла",
+        "Монтаж стеклянных конструкций и перегородок",
+        "Работаем в Минске и выезжаем по всей Беларуси",
+        "Точный замер до изготовления",
+        "Гарантия на выполненные работы"
+      ],
+      "items": []
+    }
+  ],
+  "about": {
+    "title": "О нас",
+    "intro": [
+      "В своей работе наша команда руководствуется высочайшими стандартами качества. 1. В начале работ на объект выезжает наш специалист, который проводит первоначальный осмотр и оценку. Составляется план работ по изготовлению изделию из стекла. 2. Подбирается дизайн будущего изделия. Вы можете выбрать и купить любую модель по фото из нашего каталога или сделать индивидуальный заказ. 3. Рассчитывается стоимость проекта. Названная цена окончательна и не подлежит изменениям. 4. Производство всех комплектующих. 5. Доставка изделий. 6. Установка стеклянного изделия.",
+      "Применять самые жесткие стандарты качества к продуктам, услугам и коммуникациям. Работать так, чтобы вызывать чувство восторженного удовлетворения у клиентов.",
+      "- Мы всегда открыты для своих клиентов (в любой день и час). - Глубочайшее знание своего предмета (стремление проникнуть в суть и каждую деталь, небывалая дотошность к качеству продуктов и услуг). - Работать максимально быстро и эффективно, экономить деньги и время клиента. - Знание нужд и требований нашего партнера. - Мы постоянно стремимся превысить ожидания клиента. - Мы относимся к клиентам, как к себе, и обслуживаем их так, как обслуживали бы себя. - Мы стремимся сделать общество лучше.",
+      "- Гибкость в подходе к каждому клиенту. - Порядочность. - Эффективность. - Забота о клиенте. - Интеллигентность. - Профессионализм. - Фанатичная преданность своему делу. - Открытость и естественность. - Доверие.",
+      "Мы предлагаем своим клиентам максимально комфортные условия сотрудничества, конкурентные цены, высочайшее качество и индивидуальный подход в работе.",
+      "Мы постоянно работаем над улучшением сервиса обслуживания клиентов и предлагаем комплекс услуг и привилегий."
+    ],
+    "schemaImage": "https://gromitstroy.by/wp-content/uploads/2023/01/shema-scaled.jpg",
+    "certificates": [
+      "/sert-gromit_1.jpg",
+      "/sert-gromit_2.jpg",
+      "/sert-gromit_3.jpg",
+      "/sert-gromit_4.jpg",
+      "/sert-gromit_5.jpg",
+      "/sert-gromit_6.jpg"
+    ]
+  },
+  "blog": [],
+  "contactExtra": [
+    "Беларусь, г. Минск, ул Якубова 80, офис 14 +375 (29) 163-88-94 E-mail: ooogromit@mail.ru Время работы: 8.00 - 21.00",
+    "«ГРОМИТСТРОЙ» - проверенный годами производитель прочных изделий из стекла, нержавеющей стали и художественной ковки в Минске."
+  ]
+}
