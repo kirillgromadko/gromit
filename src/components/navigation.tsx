@@ -1,6 +1,7 @@
 "use client";
 
 import { catalogNavLinks, company, navLinks } from "@/lib/data";
+import { images } from "@/lib/images";
 import { CaretDown, List, Phone, X } from "@phosphor-icons/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,13 +18,13 @@ export function Navigation() {
         aria-label="Основная навигация"
       >
         <Link
-          href="/"
+          href="/gromit/"
           className="group flex shrink-0 items-center"
           onClick={() => setOpen(false)}
         >
           <div className="relative -mr-4 sm:-mr-6">
             <Image
-              src="/logo.png"
+              src={images.logo}
               alt={`Логотип ${company.name}`}
               width={160}
               height={64}

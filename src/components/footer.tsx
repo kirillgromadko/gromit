@@ -1,4 +1,5 @@
 import { catalogNavLinks, company, navLinks } from "@/lib/data";
+import { images } from "@/lib/images";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,7 +13,7 @@ export function Footer() {
           <div>
             <div className="flex items-center">
               <Image
-                src="/logo.png"
+                src={images.logo}
                 alt={`Логотип ${company.name}`}
                 width={120}
                 height={48}
