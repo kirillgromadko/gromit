@@ -22,7 +22,7 @@ export function Navigation() {
           className="group flex shrink-0 items-center"
           onClick={() => setOpen(false)}
         >
-          <div className="relative -mr-4 sm:-mr-6">
+          <div className="relative mr-1">
             <Image
               src={images.logo}
               alt={`Логотип ${company.name}`}
