@@ -18,7 +18,7 @@ export function Navigation() {
         aria-label="Основная навигация"
       >
         <Link
-          href="/gromit/"
+          href="/"
           className="group flex shrink-0 items-center"
           onClick={() => setOpen(false)}
         >

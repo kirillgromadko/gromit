@@ -1,8 +1,8 @@
 const CDN = "https://gromitstroy.by/wp-content/uploads";
 
 export const images = {
-  hero: "/gromit/images/hero.jpg",
-  logo: "/gromit/logo.png",
+  hero: "/images/hero.jpg",
+  logo: "/logo.png",
 } as const;
 
 /** Подсказки для object-position, если кадр обрезается неудачно */
@@ -15,7 +15,7 @@ export const imageFocus: Record<string, string> = {
   [`${CDN}/2026/05/lazer-bg.jpg`]: "center center",
   [`${CDN}/2023/01/skameiki.jpg`]: "center 45%",
   [`${CDN}/2023/01/perila-lestnichnie.jpg`]: "center center",
-  "/gromit/images/hero.jpg": "center center",
+  "/images/hero.jpg": "center center",
   [`${CDN}/2023/01/shema-scaled.jpg`]: "center center",
 };
 

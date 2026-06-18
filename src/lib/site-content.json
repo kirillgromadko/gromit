@@ -387,12 +387,12 @@
     ],
     "schemaImage": "https://gromitstroy.by/wp-content/uploads/2023/01/shema-scaled.jpg",
     "certificates": [
-      "/gromit/sert-gromit_1.jpg",
-      "/gromit/sert-gromit_2.jpg",
-      "/gromit/sert-gromit_3.jpg",
-      "/gromit/sert-gromit_4.jpg",
-      "/gromit/sert-gromit_5.jpg",
-      "/gromit/sert-gromit_6.jpg"
+      "/sert-gromit_1.jpg",
+      "/sert-gromit_2.jpg",
+      "/sert-gromit_3.jpg",
+      "/sert-gromit_4.jpg",
+      "/sert-gromit_5.jpg",
+      "/sert-gromit_6.jpg"
     ]
   },
   "blog": [],
