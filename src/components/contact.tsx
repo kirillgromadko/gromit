@@ -1,33 +1,39 @@
 "use client";
 
 import { company } from "@/lib/data";
-import { Clock, Envelope, MapPin, Phone } from "@phosphor-icons/react";
+import { Clock, Envelope, MapPin, Phone, Spinner } from "@phosphor-icons/react";
 import { useState } from "react";
 import { Reveal } from "./reveal";
 
 export function Contact() {
-  const [status, setStatus] = useState<"idle" | "sent" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const form = e.currentTarget;
-    const data = new FormData(form);
-    const name = data.get("name") as string;
-    const phone = data.get("phone") as string;
-    const message = data.get("message") as string;
+    setStatus("sending");
 
-    if (!name.trim() || !phone.trim()) {
+    const data = new FormData(e.currentTarget);
+
+    try {
+      const res = await fetch("/api/send-telegram", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: data.get("name"),
+          phone: data.get("phone"),
+          message: data.get("message"),
+        }),
+      });
+
+      if (res.ok) {
+        setStatus("sent");
+        e.currentTarget.reset();
+      } else {
+        setStatus("error");
+      }
+    } catch {
       setStatus("error");
-      return;
     }
-
-    const subject = encodeURIComponent(`Заявка с сайта от ${name}`);
-    const body = encodeURIComponent(
-      `Имя: ${name}\nТелефон: ${phone}\n\n${message || "Без комментария"}`,
-    );
-    window.location.href = `mailto:${company.email}?subject=${subject}&body=${body}`;
-    setStatus("sent");
-    form.reset();
   }
 
   return (
@@ -156,21 +162,29 @@ export function Contact() {
               </div>
 
               {status === "error" && (
-                <p className="mt-4 text-sm text-red-400" role="alert">
-                  Заполните имя и телефон.
+                <p className="mt-4 text-sm text-red-500" role="alert">
+                  Ошибка отправки. Попробуйте позже или позвоните нам.
                 </p>
               )}
               {status === "sent" && (
-                <p className="mt-4 text-sm text-[#00509D]" role="status">
-                  Откроется почтовый клиент для отправки заявки.
+                <p className="mt-4 text-sm text-green-600" role="status">
+                  Заявка отправна! Мы свяжемся с вами в ближайшее время.
                 </p>
               )}
 
               <button
                 type="submit"
-                className="mt-6 w-full rounded-full bg-[#00509D] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[#004080] active:scale-[0.98]"
+                disabled={status === "sending"}
+                className="mt-6 flex w-full items-center justify-center gap-2 rounded-full bg-[#00509D] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[#004080] active:scale-[0.98] disabled:opacity-70"
               >
-                Отправить заявку
+                {status === "sending" ? (
+                  <>
+                    <Spinner size={16} className="animate-spin" />
+                    Отправка...
+                  </>
+                ) : (
+                  "Отправить заявку"
+                )}
               </button>
             </form>
           </Reveal>
