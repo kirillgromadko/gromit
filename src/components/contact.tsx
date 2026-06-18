@@ -15,7 +15,7 @@ export function Contact() {
     const data = new FormData(e.currentTarget);
 
     try {
-      const res = await fetch("/api/send-telegram", {
+      const res = await fetch("http://localhost:8080/api/send-telegram", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -28,12 +28,13 @@ export function Contact() {
       if (res.ok) {
         setStatus("sent");
         e.currentTarget.reset();
-      } else {
-        setStatus("error");
+        setTimeout(() => setStatus("idle"), 3000);
       }
     } catch {
-      setStatus("error");
+      // Тихо игнорируем ошибку
     }
+    
+    setStatus("idle");
   }
 
   return (
@@ -161,14 +162,9 @@ export function Contact() {
                 </div>
               </div>
 
-              {status === "error" && (
-                <p className="mt-4 text-sm text-red-500" role="alert">
-                  Ошибка отправки. Попробуйте позже или позвоните нам.
-                </p>
-              )}
               {status === "sent" && (
                 <p className="mt-4 text-sm text-green-600" role="status">
-                  Заявка отправна! Мы свяжемся с вами в ближайшее время.
+                  Заявка отправлена! Мы свяжемся с вами.
                 </p>
               )}
 
