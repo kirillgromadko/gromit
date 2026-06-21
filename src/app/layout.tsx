@@ -17,7 +17,8 @@ export const metadata: Metadata = {
   description:
     "Изготовление и монтаж перил и ограждений из нержавеющей стали, стекла, кованого и чёрного металла. Минск и вся Беларусь.",
   icons: {
-    icon: "/logo.png",
+    icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "ГРОМИТСТРОЙ | Перила и ограждения под ключ",
