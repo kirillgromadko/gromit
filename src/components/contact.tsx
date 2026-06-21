@@ -12,7 +12,8 @@ export function Contact() {
     e.preventDefault();
     setStatus("sending");
 
-    const data = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const data = new FormData(form);
 
     try {
       const res = await fetch("http://localhost:8080/api/send-telegram", {
@@ -26,9 +27,10 @@ export function Contact() {
       });
 
       if (res.ok) {
+        form.reset();
         setStatus("sent");
-        e.currentTarget.reset();
         setTimeout(() => setStatus("idle"), 3000);
+        return;
       }
     } catch {
       // Тихо игнорируем ошибку
