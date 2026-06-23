@@ -35,6 +35,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+        <link rel="icon" href="/logo.png" type="image/png" />
+      </head>
       <body className="min-h-[100dvh] bg-white text-[#1A1A1A] antialiased">
         <a
           href="#main"
