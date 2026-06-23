@@ -14,7 +14,7 @@ export function Navigation() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-[#E5E7EB] bg-white/90 backdrop-blur-xl">
       <nav
-        className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:h-[88px] lg:px-8"
+        className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4 lg:h-16 lg:px-8"
         aria-label="Основная навигация"
       >
         <Link
@@ -26,9 +26,9 @@ export function Navigation() {
             <Image
               src={images.logo}
               alt={`Логотип ${company.name}`}
-              width={160}
-              height={64}
-              className="h-12 w-auto object-contain transition-opacity group-hover:opacity-90 sm:h-16 lg:h-20"
+              width={140}
+              height={56}
+              className="h-10 w-auto object-contain transition-opacity group-hover:opacity-90 sm:h-12 lg:h-14"
               priority
             />
           </div>
@@ -45,7 +45,7 @@ export function Navigation() {
           >
             <button
               type="button"
-              className="flex items-center gap-1 text-sm text-[#9CA3AF] transition-colors hover:text-[#1A1A1A]"
+              className="flex items-center gap-1 text-base text-[#9CA3AF] transition-colors hover:text-[#1A1A1A]"
               aria-expanded={catalogOpen}
             >
               Каталог
@@ -75,7 +75,7 @@ export function Navigation() {
             <Link
               key={link.href}
               href={link.href}
-              className="whitespace-nowrap text-sm text-[#9CA3AF] transition-colors hover:text-[#1A1A1A]"
+              className="whitespace-nowrap text-base text-[#9CA3AF] transition-colors hover:text-[#1A1A1A]"
             >
               {link.label}
             </Link>
